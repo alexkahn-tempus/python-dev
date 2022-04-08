@@ -2,9 +2,8 @@
 
 Getting a working development environment:
 
-1. Installation
-* pyenv
-* pipx
-* pipenv
-
-2. Editing
+```shell
+brew install pyenv pipx
+pyenv install 3.10.2
+pipx install pipenv
+```
